@@ -5,3 +5,5 @@ topics:
   - Video/Media
 year: 2024
 ---
+
+Facebook's separate Watch and Reels stacks fragmented video delivery and complicated development. Meta unified the experiences and infrastructure across recommendation systems, backend services, and mobile clients. The article explains how those layers coordinate ranking freshness, pagination, deduplication, caching, and client-side ranking under latency and capacity constraints.

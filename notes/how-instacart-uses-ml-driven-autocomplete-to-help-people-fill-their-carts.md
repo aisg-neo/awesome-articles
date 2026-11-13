@@ -6,3 +6,5 @@ topics:
   - Search
 year: 2022
 ---
+
+Instacart built an autocomplete pipeline that generates suggestions from past searches and ranks them to help customers express useful shopping intent quickly. It uses fuzzy matching, embedding-based semantic deduplication, and retailer-aware candidates to handle typos and avoid repetitive suggestions. Fuzzy matching increased autocomplete engagement by 1% and the percentage of converted queries by 0.5%.

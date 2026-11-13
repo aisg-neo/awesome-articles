@@ -5,3 +5,5 @@ topics:
   - Infrastructure
 year: 2022
 ---
+
+PayPal stress-tested Kubernetes during its migration from Mesos and found bottlenecks in the API server, controllers, scheduler, and etcd. It tuned request limits and concurrency and separated event storage into a distinct etcd cluster to improve control-plane stability. The tests scaled to about 4,100 nodes and 200,000 pods, with p99 pod-start latency around five seconds.

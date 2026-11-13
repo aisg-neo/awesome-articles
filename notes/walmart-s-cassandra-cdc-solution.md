@@ -6,3 +6,5 @@ topics:
   - Databases
 year: 2022
 ---
+
+Walmart built a Cassandra CDC pipeline using Debezium and Kafka to bring transactional changes into its data platform. It modified the connector to process commit logs incrementally and used Redis-backed Bloom filters to deduplicate changes produced by Cassandra replication. A three-VM benchmark processed 623,000 records per minute, with p95 batch processing time of two seconds.

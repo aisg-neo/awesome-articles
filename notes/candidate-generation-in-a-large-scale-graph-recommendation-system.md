@@ -6,3 +6,5 @@ topics:
   - Search
 year: 2024
 ---
+
+LinkedIn's People You May Know system needs to shortlist candidates without scoring its entire billion-member network. Its candidate generation combines graph-based retrieval, similarity-based retrieval, and heuristics to capture network relationships and professional or educational similarities. These techniques improved engagement among frequent members and retention among infrequent members.

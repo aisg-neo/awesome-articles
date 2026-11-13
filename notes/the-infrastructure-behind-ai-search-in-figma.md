@@ -6,3 +6,5 @@ topics:
   - AI/ML
 year: 2024
 ---
+
+Figma built semantic and visual search by generating CLIP embeddings for designs and components and indexing them for nearest-neighbor retrieval. The infrastructure must identify useful frames, render images, and update billions of embeddings while combining semantic matches with existing lexical results. Debouncing indexing to at most once every four hours reduced the amount of data requiring processing to 12%.

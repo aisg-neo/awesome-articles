@@ -6,3 +6,5 @@ topics:
   - Search
 year: 2023
 ---
+
+eBay developed a deep learning ranker to personalize hundreds of candidate recommendations using user behavior and platform objectives. The model uses a pairwise loss to learn ordering preferences rather than relying only on an item context. Offline evaluation and A/B tests showed improvements in engagement and purchase conversion, leading to production launches.

@@ -6,3 +6,5 @@ topics:
   - Infrastructure
 year: 2023
 ---
+
+Lyft's monolithic model-serving service constrained library versions and coupled deployment and incident ownership across teams. LyftLearn Serving replaces it with a decentralized microservice framework for loading, versioning, deploying, monitoring, and invoking models. Modelers can supply custom Python prediction code and dependencies while reusing platform support for experiments, shadowing, and inference logging.

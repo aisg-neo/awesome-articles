@@ -4,4 +4,5 @@ link: https://quoraengineering.quora.com/Migrating-a-decade-of-Redshift-usages-t
 topics:
   - Data Engineering
 year: 2024
+unread: true
 ---

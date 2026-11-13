@@ -6,3 +6,5 @@ topics:
   - Performance
 year: 2024
 ---
+
+Salesforce Data Cloud needed to process diverse unstructured data while integrating a microservice platform with Salesforce’s monolithic core. The team introduced chunking, vectorization, similarity search, and release quality gates across the two environments. Deploying models on Amazon EMR on EKS helped the platform handle approximately 250 trillion transactions per week across tenants.

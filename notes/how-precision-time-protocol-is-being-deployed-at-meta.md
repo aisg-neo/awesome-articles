@@ -5,3 +5,5 @@ topics:
   - Infrastructure
 year: 2022
 ---
+
+Meta deployed Precision Time Protocol to improve clock synchronization beyond the millisecond precision of NTP. The article describes the timing infrastructure, from GNSS antennas and time appliances to hardware-timestamped network packets and client software. More precise time reduces uncertainty for distributed-system operations, with an experiment showing roughly a hundredfold performance difference between NTP and an early PTP implementation.

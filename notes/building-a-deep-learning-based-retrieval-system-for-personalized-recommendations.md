@@ -6,3 +6,5 @@ topics:
   - Search
 year: 2022
 ---
+
+eBay describes building personalized recommendation retrieval from user browsing histories using text-derived item embeddings, user embeddings, and approximate nearest-neighbor search. The architecture evolved from offline recommendations to real-time retrieval and then near-real-time embedding updates. The final stage reduced the delay between user activity and updated recommendations to seconds.

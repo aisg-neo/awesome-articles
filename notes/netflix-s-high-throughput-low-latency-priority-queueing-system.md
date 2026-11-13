@@ -6,3 +6,5 @@ topics:
   - Performance
 year: 2022
 ---
+
+Netflix built Timestone because its media-encoding platform needed low-latency priority queues with linearizable assignment and support for work that must not run concurrently. The service dequeues messages by earliest deadline and provides exclusive queues that enforce nonparallel execution without consumer-side locking. It now also supports workflow orchestration and data-pipeline scheduling, handling millions of critical workflows daily.

@@ -6,3 +6,5 @@ topics:
   - Performance
 year: 2025
 ---
+
+Salesforce's search platform faces unpredictable customer traffic and contention between indexing, query serving, and replication. The team uses automated load shedding to protect high-priority queries during spikes, including a migration involving about 9,000 organizations. The platform supports roughly 30 billion monthly queries over 6.9 petabytes of indexed data while maintaining sub-second latency.

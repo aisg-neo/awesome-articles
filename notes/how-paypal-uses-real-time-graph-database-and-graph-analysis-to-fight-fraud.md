@@ -6,3 +6,5 @@ topics:
   - Databases
 year: 2021
 ---
+
+PayPal built an integrated graph platform to detect linked and repeat fraud through real-time queries, interactive investigations, and offline graph analytics. Its homegrown real-time graph database uses an Aerospike-backed storage layer and Gremlin queries, with batch loading and event-driven updates that keep relationships fresh within seconds. The article describes a 100-millisecond SLA for real-time graph computation, an average 10-millisecond requirement for two-hop queries, and mirror-graph support for generating graph embeddings.

@@ -6,3 +6,5 @@ topics:
   - Performance
 year: 2021
 ---
+
+Twitter redesigned its ad-impression metadata system because a shared monolithic structure coupled teams, obscured ownership, and made field changes error-prone. It separated data by problem domain and introduced Impression Data Service to store and retrieve metadata through a common interface. The design allows producers to own their fields and scale their storage independently while supporting millions of impressions per second.

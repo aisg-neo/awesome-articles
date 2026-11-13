@@ -5,3 +5,5 @@ topics:
   - Data Engineering
 year: 2023
 ---
+
+Razorpay describes optimizations to its streaming platform for maintaining large, mutable denormalized tables from Kafka CDC events. The pipeline uses Spark micro-batches and a dependency graph to join changes into Delta tables on S3. Broadcast caching, Z-ordering, parallel processing of independent nodes, and revised handling of unmatched records reduce redundant work, while Grafana monitoring tracks latency, throughput, and source-to-target lag.

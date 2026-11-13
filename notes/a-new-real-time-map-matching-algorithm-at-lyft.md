@@ -5,3 +5,5 @@ topics:
   - AI/ML
 year: 2020
 ---
+
+Lyft replaced its real-time map-matching approach with a marginalized particle filter to turn noisy phone GPS readings into more accurate driver positions. The algorithm maintains possible road trajectories and uses an unscented Kalman filter to estimate position, speed, and uncertainty. Experiments reduced ETA errors and passenger cancellations.

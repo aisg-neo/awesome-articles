@@ -6,3 +6,5 @@ topics:
   - Infrastructure
 year: 2023
 ---
+
+Lyft extended LyftLearn so streaming data could be used consistently across model training, serving, and monitoring. The real-time ML initiative created reusable foundations and a RealtimeMLPipeline abstraction to replace bespoke integrations that took weeks or months. A consistent lifecycle reduced the time to build these pipelines from many weeks to days.

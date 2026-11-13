@@ -5,3 +5,5 @@ topics:
   - AI/ML
 year: 2018
 ---
+
+Instacart needed fresher availability estimates than retailers' typically daily inventory updates could provide. It trained an XGBoost classifier on shoppers' found and not-found events, item history, time patterns, and categorical information to estimate whether products could be found in store. The system predicts availability for 200 million store-specific items every 60 minutes.

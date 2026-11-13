@@ -6,3 +6,5 @@ topics:
   - Architecture
 year: 2024
 ---
+
+Netflix rebuilt its Reloaded video-processing monolith as independently deployable Cosmos microservices to reduce coupling and long release cycles. Dedicated services handle inspection, complexity analysis, ladder generation, encoding, validation, and quality measurement, with separate orchestrators for streaming and studio workflows. The migration completed in September 2023, and the modular pipeline also supported rapidly changing requirements for advertising creatives.

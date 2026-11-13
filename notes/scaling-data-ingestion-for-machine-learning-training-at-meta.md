@@ -6,3 +6,5 @@ topics:
   - Data Engineering
 year: 2022
 ---
+
+Meta's training accelerators were improving faster than the CPU infrastructure feeding them, making data ingestion a constraint on AI capacity. It built a disaggregated data preprocessing tier and optimized storage reads, feature extraction, and last-mile transformations. These changes improved the ingestion infrastructure's power budget requirement by 35–45%.

@@ -5,3 +5,5 @@ topics:
   - AI/ML
 year: 2024
 ---
+
+Instacart needed replacement recommendations that work for both popular products with rich feedback and less common items with little history. It retrieves a few hundred candidates through heuristics, then combines a deep-learning similarity model with engagement scores whose weight grows with available replacement feedback. Its candidate generation includes more than 95% of replacements selected by shoppers.

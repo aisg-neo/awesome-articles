@@ -5,3 +5,5 @@ topics:
   - AI/ML
 year: 2024
 ---
+
+Reddit's Dynamic Product Ads system combines rule-based, contextual, and behavioral candidate selectors to retrieve relevant products from hundreds of millions of catalog entries. A two-tower model and online approximate-nearest-neighbor search provide personalized candidates, which are combined and lightly ranked before entering the final ad auction. The article reports that cumulative DPA modeling and infrastructure improvements more than doubled return on ad spend and tripled user reach.

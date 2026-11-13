@@ -6,3 +6,5 @@ topics:
   - Search
 year: 2024
 ---
+
+Swiggy needed semantic retrieval for complex food queries that direct string matching could not resolve. It fine-tuned small sentence-embedding models first on historical query and order data, then on curated query-item pairs enriched with food-taxonomy knowledge. The two-stage all-mpnet-base-v2 model performed best on overall retrieval metrics in its evaluation, and the feature was being tested with a small cohort.

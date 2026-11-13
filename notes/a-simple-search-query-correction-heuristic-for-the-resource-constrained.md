@@ -5,3 +5,5 @@ topics:
   - Search
 year: 2020
 ---
+
+Instacart needed to correct misspelled grocery searches without maintaining an expanding manual dictionary. The team used historical query transitions and successful conversions to build a Markov-chain-inspired heuristic that maps unsuccessful queries to likely successful alternatives. This provided a lightweight way to improve recall for misspellings using customer search behavior.

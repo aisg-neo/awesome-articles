@@ -6,3 +6,5 @@ topics:
   - Infrastructure
 year: 2022
 ---
+
+Canva’s media metadata service outgrew MySQL as uploads and stored media increased. The team migrated to DynamoDB using SQS messages that triggered current-state replication, prioritized active media, and validated results with dual reads. The production cutover had no downtime or errors, and the service now supports more than 25 billion uploaded media with 50 million new uploads daily.
